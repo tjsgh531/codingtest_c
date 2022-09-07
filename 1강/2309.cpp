@@ -54,7 +54,9 @@ void answer(vector<int>& v){
                 temp.push_back(v[idx]);
             }
         }
+        
         int sum = accumulate(temp.begin(), temp.end(), 0);
+
         if(sum == 100){
             sort(temp.begin(), temp.end());
             for(int item : temp) cout << item << "\n";
