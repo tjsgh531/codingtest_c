@@ -15,8 +15,8 @@ int main(void){
         for(int j = 0; j < 26; j++) alpa[j] = 0;
 
         cin >> a >> b;
-        for(int k : a) alpa[k-96]++;
-        for(int t : b) alpa[t-96]--;
+        for(int k : a) alpa[k-97]++;
+        for(int t : b) alpa[t-97]--;
         
         for(int s : alpa){
             if(s != 0){
